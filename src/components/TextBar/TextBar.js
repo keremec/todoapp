@@ -19,6 +19,7 @@ const TextBar = props => {
         placeholder="Yapılacak..."
         placeholderTextColor={'#7a7f81'}
         onChangeText={inputValueChange}
+        keyboardAppearance={'dark'}
         value={inputValue}
       />
       {isEmpty ? (
